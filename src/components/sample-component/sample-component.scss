@@ -1,0 +1,30 @@
+/* src/components/test/test.scss */
+
+#app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40%;
+    width: 50%;
+    align-self: center;
+    border: 3px solid blue;
+}
+
+.sample-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & > button{
+      margin-top: 10px;
+
+    }
+    & > .bx--form-item {
+        align-self: flex-start;
+        margin-top: 10px;
+        color: blue;
+      }
+}
+

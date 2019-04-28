@@ -1,9 +1,8 @@
-# compiled output
-/dist
-
 # dependencies
-/node_modules
-/bower_components
+node_modules
+bower_components
+.cache
+.yarn-offline-mirror
 
 # misc
 .sass-cache
@@ -13,3 +12,4 @@ npm-debug.log*
 # mac
 .DS_Store
 yarn.lock
+*.log
